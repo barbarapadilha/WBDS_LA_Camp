@@ -1,0 +1,34 @@
+git clone https://github.com/WomenBioinfoDataScLA/projeto_final_pre-camp_wbds_la-barbarapadilha
+cd projeto_final_pre-camp_wbds_la-barbarapadilha/
+cd passo_2
+ls
+cat instrucoes.txt
+cd passo_5
+ls
+head instrucoes.txt
+cd ../
+cd passo_10
+ls
+cat instrucoes.txt
+curl -k https://www.gnu.org/licenses/gpl-3.0.txt | grep -c 'freedom'
+cd ../
+cd passo_8
+ls
+cat instrucoes.txt
+curl https://www.rcsb.org/fasta/entry/7PND | grep -c 'K'
+cd ../
+cd passo_24
+cat instrucoes.txt
+curl https://www.alphafold.ebi.ac.uk/entry/F4HVG8  --output alphafold.txt
+ls -la
+cd ../
+cd passo_7
+ls
+cat instrucoes.txt
+grep -c 'Homo sapiens' sequences.fasta
+grep -c 'Homo sapiens' sequences_II.fasta
+cd ../
+cd passo_9
+ls
+cat instrucoes.txt
+cat arch_I.md ; cat arch_II.md ; cat arch_III.md ; cat arch_IV.md ; cat arch_V.md > frase_final.txt
